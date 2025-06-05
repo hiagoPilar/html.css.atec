@@ -7,14 +7,20 @@
     <style>
 
         header{
-            background-color: antiquewhite;
-            padding: 20px;
+            background-color: rgba(250, 235, 215, 0.568);
+            padding: 25px;
+            margin-top: 25px;
             text-align: center;
             margin-bottom: 20px;
             color: rgb(4, 41, 4);
         }
         body{
             background-color: rgb(4, 41, 4);
+            background-image: url(imagens/marxnnand.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: left;
             padding-top: 20px;
             
         }
@@ -27,6 +33,7 @@
             background-color: antiquewhite;
             color: rgb(4, 41, 4);
             padding: 20px;
+            margin-top: 50px;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             width: 300px;
@@ -41,7 +48,7 @@
     
     <main>
         <section>
-            <form method="get" action="">
+            <form>
             <label for="nome">Nome:</label>
             <input id="nome" type="text" value="Hiago Pilar" name="nome" required>
             <br>
@@ -58,9 +65,19 @@
             <input id="password" type="password" required>
             <br>
             <br>
-            <input type="submit" value="Enviar">
+            <input type="radio" name="sexo" value="masculino" checked> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino
+            <br>
+            <br>
+            <input type="file" name="arquivo" accept=".txt, .pdf, .docx" multiple>
+            <br>
+            <br>
+
+            <button formaction="login.php" formmethod="get" type="submit" formenctype="multipart/form-data" >Enviar</button>
+            <button formaction="registrar.php" formmethod="post" type="submit">Registrar</button>
         </form>
         </section>
+        
     </main>
    
 
