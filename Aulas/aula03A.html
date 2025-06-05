@@ -65,19 +65,53 @@
             <input id="password" type="password" required>
             <br>
             <br>
+
             <input type="radio" name="sexo" value="masculino" checked> Masculino
             <input type="radio" name="sexo" value="feminino"> Feminino
             <br>
             <br>
+
+
             <input type="file" name="arquivo" accept=".txt, .pdf, .docx" multiple>
             <br>
             <br>
+
+            <select name="fruta" id="fruta">
+                <option value=""></option>
+                <option value="banana" selected>Banana</option>
+                <option value="maçã" >Maçã</option>
+                <option value="laranja">Laranja</option>
+            </select>
+            <br>
+            <br>
+            <select name="comida" id="">
+                <optgroup label="Frutas">
+                    <option value="banana">Banana</option>
+                    <option value="maçã">Maçã</option>
+                    <option value="laranja">Laranja</option>
+                </optgroup>
+                <optgroup label="Legumes">
+                    <option value="cenoura">Cenoura</option>
+                    <option value="batata">Batata</option>
+                    <option value="beterraba">Beterraba</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <input type="fruit" list="hobbies" value="cinema">
+            <datalist id="hobbies">
+                <option selected>Cinema</option>
+                <option >Leitura</option>
+                <option >Esportes</option>
+            </datalist>
+            <br><br>
+
 
             <button formaction="login.php" formmethod="get" type="submit" formenctype="multipart/form-data" >Enviar</button>
             <button formaction="registrar.php" formmethod="post" type="submit">Registrar</button>
         </form>
         </section>
-        
+
     </main>
    
 
