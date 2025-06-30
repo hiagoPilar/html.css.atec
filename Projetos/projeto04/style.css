@@ -1,0 +1,113 @@
+/* Estilo para o corpo do documento */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #32502c;
+    text-align: center;
+}
+
+/* Estilo para a seção de apresentação */
+section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 16px;
+}
+
+/* Estilo para ênfase */
+em {
+    font-style: italic;
+    color: #e7973c;
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+    color: #34db7a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para listas */
+ol, ul {
+    font-size: 15px;
+}
+
+#objetivos {
+    color: #27ae60;
+}
+
+.destaque {
+    font-weight: bold;
+    background-color: #f9e79f;
+}
+
+/* Estilos específicos para a página de favoritos */
+#filmes {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #6c7d6c;
+}
+
+#poema {
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.lista-favoritos {
+    list-style-type: upper-roman;
+}
+
+.item-favorito {
+    color: #49574b;
+    margin-bottom: 8px;
+}
+
+.item-favorito a {
+    color: #354034;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item-favorito a:hover {
+    color: #15ff00;
+    text-decoration: underline;
+}
+
+pre {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+img {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #344035;
+    color: white;
+}
